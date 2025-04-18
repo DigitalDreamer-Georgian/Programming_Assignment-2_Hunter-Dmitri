@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class Melee : MonoBehaviour
 {
-    public Animator animator;
     public float speed;               // Movement speed
     public Transform target;          // Target to follow (e.g., the player)
     public float attackRange;         // Distance at which the enemy attacks
@@ -34,10 +33,6 @@ public class Melee : MonoBehaviour
     {
         nextAttackTime = Time.time + attackCooldown; // Set cooldown
         Debug.Log("Enemy attacks!");
-        if(animator != null)
-        {
-            animator.SetTrigger("Attack");
-        }
         if (target.CompareTag("Player"))
         {
             PlayerHealth playerHealth = target.GetComponent<PlayerHealth>();
