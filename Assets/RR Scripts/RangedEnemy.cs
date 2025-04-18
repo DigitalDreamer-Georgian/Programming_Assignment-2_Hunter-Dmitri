@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class beeai : MonoBehaviour
+public class RangedEnemy : MonoBehaviour
 {
     public float speed;               // Movement speed
     public Transform target;          // Target to follow (e.g., the player)
