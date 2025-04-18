@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 288822685}
   m_Layer: 0
   m_Name: Square (8)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -526,6 +526,7 @@ GameObject:
   - component: {fileID: 464041239}
   - component: {fileID: 464041242}
   - component: {fileID: 464041243}
+  - component: {fileID: 464041244}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -684,6 +685,22 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.0035926104}
   m_Size: {x: 1.1508882, y: 1.1508882}
   m_Direction: 0
+--- !u!114 &464041244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464041238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39596b59bc6511842918dc0f3f1e23bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ani: {fileID: 0}
+  bulletPrefab: {fileID: 7566680295151626281, guid: d8f291551878bf04e8aa2049e0819aca, type: 3}
+  bulletsPrefab: {fileID: 7566680295151626281, guid: d8f291551878bf04e8aa2049e0819aca, type: 3}
+  weaponType: 1
 --- !u!1 &502420229
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,7 +714,7 @@ GameObject:
   - component: {fileID: 502420232}
   m_Layer: 0
   m_Name: Square (16)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -831,7 +848,7 @@ GameObject:
   - component: {fileID: 536810208}
   m_Layer: 0
   m_Name: Square (12)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1053,7 +1070,7 @@ GameObject:
   - component: {fileID: 602758035}
   m_Layer: 0
   m_Name: Door
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1201,7 +1218,7 @@ GameObject:
   - component: {fileID: 705202397}
   m_Layer: 0
   m_Name: Square (17)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1548,7 +1565,7 @@ GameObject:
   - component: {fileID: 901444958}
   m_Layer: 0
   m_Name: Square (6)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1682,7 +1699,7 @@ GameObject:
   - component: {fileID: 1421835709}
   m_Layer: 0
   m_Name: Square (10)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1816,7 +1833,7 @@ GameObject:
   - component: {fileID: 1444241862}
   m_Layer: 0
   m_Name: Square (14)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1950,7 +1967,7 @@ GameObject:
   - component: {fileID: 1516091787}
   m_Layer: 0
   m_Name: Square (15)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2171,7 +2188,7 @@ GameObject:
   - component: {fileID: 1642006858}
   m_Layer: 0
   m_Name: Square (19)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2305,7 +2322,7 @@ GameObject:
   - component: {fileID: 1645837351}
   m_Layer: 0
   m_Name: Square (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2572,7 +2589,7 @@ GameObject:
   - component: {fileID: 2061446333}
   m_Layer: 0
   m_Name: Square (21)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2706,7 +2723,7 @@ GameObject:
   - component: {fileID: 2083372887}
   m_Layer: 0
   m_Name: Square (18)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2840,7 +2857,7 @@ GameObject:
   - component: {fileID: 2106408023}
   m_Layer: 0
   m_Name: Square (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3082,7 +3099,7 @@ GameObject:
   - component: {fileID: 2112803672}
   m_Layer: 0
   m_Name: Square (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
