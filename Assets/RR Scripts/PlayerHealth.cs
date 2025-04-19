@@ -67,7 +67,6 @@ public class PlayerHealth : MonoBehaviour
 
         health = maxHealth;
         healthBar?.UpdateHealthBar(health, maxHealth);
-        if (respawn != null)
         {
             //transform.position = respawn.position;
             SceneManager.LoadScene(nextlvl);
